@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+}
+
+.headerTop {
+  background:url(/Users/kylehuff/Documents/TheIronYard/w1d2-make-a-site/css/ArsenalWallpaper.jpg);
+  background-position:center;
+  background-size:cover;
+  color: red;
+  padding: 170px;
+  box-shadow: 10px 10px 100px black;
+  box-shadow: -10px -10px 100px black;
+}
+#headerMain{
+  text-align: center;
+  background:url(/Users/kylehuff/documents/TheIronYard/w1d2-make-a-site/css/arsenalstadium.jpg);
+  background-position:center;
+  background-size:cover;
+  padding:0px 100px 320px 100px;
+}
+
+#headerMain button {
+  font-family: 'Orbitron', sans-serif;
+  font-size: large;
+  background-color: transparent;
+  border: 0px solid white;
+  text-align: center;
+  padding: 25px 100px 25px 100px;
+  transition: all .4s ease;
+  color: white;
+}
+
+#headerMain button:hover{
+  color:red;
+  transform: translateY(-40px);
+
+}
+#headerbottom {
+  color: white;
+  font-size: small;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#headerAbout {
+  text-align: center;
+  background:url(/Users/kylehuff/documents/TheIronYard/w1d2-make-a-site/css/arsenalpitch.jpg);
+  background-position:center;
+  background-size:cover;
+  padding:0px 100px 320px 100px;
+  margin-bottom: 0;
+}
+#headerAbout button {
+  font-family: 'Orbitron', sans-serif;
+  font-size: large;
+  background-color: transparent;
+  border: 0px solid white;
+  text-align: center;
+  padding: 25px 100px 25px 100px;
+  transition: all .4s ease;
+  color: white;
+}
+
+#headerAbout button:hover{
+  color:red;
+  transform: translateY(-40px);
+}
+
+#headerContact {
+  text-align: center;
+  background:url(/Users/kylehuff/documents/TheIronYard/w1d2-make-a-site/css/arsenalpitch.jpg);
+  background-position:center;
+  background-size:cover;
+  padding:0px 100px 320px 100px;
+  margin-bottom: 0;
+}
+
+#headerContact button {
+  font-family: 'Orbitron', sans-serif;
+  font-size: large;
+  background-color: transparent;
+  border: 0px solid white;
+  text-align: center;
+  padding: 25px 100px 25px 100px;
+  transition: all .4s ease;
+  color: white;
+}
+
+#headerContact button:hover{
+  color:red;
+  transform: translateY(-40px);
+}
+.arsenalcircle {
+  position: absolute;
+  left: 0;
+  border-radius: 90px;
+  margin-top: 60px;
+  margin-left: 360px;
+}
+
+#aboutText {
+  color: white;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+
+}
+
+#contactText {
+  color: white;
+  text-align: left;
+  margin-left: 500px;
+}
